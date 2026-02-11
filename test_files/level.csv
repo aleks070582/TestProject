@@ -1,7 +1,0 @@
-receive_ts;exchange_ts;price;quantity;side;rebuild
-100;100;100;1;bid;1
-110;110;110;1;bid;1
-120;120;120;1;bid;1
-130;130;130;1;bid;1
-140;140;140;1;bid;1
-150;150;150;1;bid;1
