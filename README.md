@@ -3,6 +3,7 @@
 Консольное * приложение для расчета медианы цен из CSV-файлов с потоковыми данными биржевых торгов.
 
 * кросплатформенное(Windows,Linux)
+  ссылка на презентацию https://disk.yandex.ru/i/vTcFCeNDNvUVdw
   
 ## Описание
 Проект считывает CSV-файлы формата:  receive_ts;exchange_ts;price;quantity;side;[rebuild - опционально]
