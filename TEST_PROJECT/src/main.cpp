@@ -41,7 +41,7 @@ int main(int argc, char* argv[]){
     }
     spdlog::info("toml file parsed successfuly");
     spdlog::info("input path: {}",parsed_toml.input_path.string());
-    spdlog::info("output path: {}",fmt::join(parsed_toml.output_path.string(),", "));
+    spdlog::info("output path: {}",parsed_toml.output_path.string());
     spdlog::info("file masks {}",parsed_toml.masks);
     std::vector<fs::path> files;
     GetCvsFiles(parsed_toml,files);
