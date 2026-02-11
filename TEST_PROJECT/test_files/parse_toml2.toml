@@ -1,0 +1,5 @@
+[main]
+    # Все параметры указаны
+    input = '/home/user/project/data/input'
+    output = '/home/user/project/data/results'
+    filename_mask = ['level', 'trade', 'market']
