@@ -18,7 +18,7 @@ private:
             : data(size)
         {}
     };
-    static constexpr size_t BUFFER_SIZE = 50;
+    static constexpr size_t BUFFER_SIZE = 1024;
     std::ifstream file;
     std::unique_ptr<BufferData> buffers[2];
     BufferData* current_buf = nullptr;
