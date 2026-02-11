@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
 
-project(test_project LANGUAGES CXX)
+project(csv_median_calculator LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -62,11 +62,11 @@ target_link_libraries(core
         spdlog::spdlog
 )
 
-add_executable(test_project
+add_executable(csv_median_calculator
     src/main.cpp
 )
 
-target_link_libraries(test_project
+target_link_libraries(csv_median_calculator
     PRIVATE
         core
 )
